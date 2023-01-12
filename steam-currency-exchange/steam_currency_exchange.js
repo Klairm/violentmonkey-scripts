@@ -17,6 +17,7 @@ var pricesClasses = [
   ".game_purchase_price",
   ".price",
   ".discount_prices",
+  ".game_area_dlc_price"
 ];
 
 function getConvertedPrice(price) {
