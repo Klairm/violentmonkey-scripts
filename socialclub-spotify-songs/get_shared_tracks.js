@@ -12,7 +12,6 @@ function onClick(){
   // Get all the spotify  posts and get the URI, then save to a txt file
   let uriTracks = [];
   document.querySelectorAll("div[data-ui-name=share_spotify_songFeedCard]").forEach(i => {
-  console.log(i.children[0].children[1].children[0].src.split("track:")[1] )
   uriTracks.push(i.children[0].children[1].children[0].src.split("track:")[1].toString())
   uriTracks.push("\n")
 
